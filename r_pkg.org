@@ -1,0 +1,22 @@
+* CREATE AN R PACKAGE IN 15 MINS OR LESS!
+** whoami
+- https://github.com/chainsawriot
+- maintainer of
+-- On CRAN: readODS, ngrammr
+-- On github: wordcloudrr, coderr, weiborr, hkgovrr, sinodate, hongkong
+- contributor of: rio (I am the originator), SocialMediaLab
+** R package is
+- Your great reusable program
+- A NAMESPACE
+- Documentation of your code
+- Metadata of your code
+- About sharing
+** Example (LIVE DEMO)
+wordcloudrr example
+** How to create an R package (LIVE DEMO)
+- code: urlresolver
+- devtools
+** How to share your code
+- github
+*** CRAN
+https://cran.r-project.org/submit.html
