@@ -1,4 +1,4 @@
-url_resolver <- function(url, domain = FALSE, sleeptime = 0, echo = FALSE) {
+urlresolver <- function(url, domain = FALSE, sleeptime = 0, echo = FALSE) {
     full_url <- tryCatch({
         x <- curlGetHeaders(url, redirect = TRUE)
         stringr::str_replace(grep("^Location", x, value = TRUE), "^Location: ", "")
@@ -19,6 +19,5 @@ url_resolver <- function(url, domain = FALSE, sleeptime = 0, echo = FALSE) {
     }
 }
 
-url_resolver("http://t.rthk.hk/ltptr", domain = FALSE)
-url_resolver("https://t.co/hYcN1X0m5v")
-
+urlresolver("http://t.rthk.hk/ltptr")
+urlresolver("https://t.co/hYcN1X0m5v", domain = TRUE)
