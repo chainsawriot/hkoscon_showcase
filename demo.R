@@ -1,4 +1,4 @@
-akw <- readRDS("~/dev/akw.RDS")
+akw <- readRDS("akw.RDS")
 head(akw, 30)
 
 cols <- RColorBrewer::brewer.pal(6, "Purples")[4:6][factor(cut(akw$chia, c(0, 50, 100,Inf)))]
