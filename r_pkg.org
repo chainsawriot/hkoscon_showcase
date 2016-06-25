@@ -1,13 +1,14 @@
-* CREATE AN R PACKAGE IN 15 MINS OR LESS!
+* CREATE AN R PACKAGE IN 14m59s OR LESS!
 ** whoami
 - 陳電鋸
 - https://github.com/chainsawriot
 - maintainer of
--- On CRAN: readODS, ngrammr
--- On github: wordcloudrr, coderr, weiborr, hkgovrr, sinodate, hongkong
+    - On CRAN: readODS, ngrammr
+    - On github: wordcloudrr, coderr, weiborr, hkgovrr, sinodate, hongkong
 - contributor of: rio (I am the origin author), SocialMediaLab
 ** R package is
 - Your great reusable program
+- A structured directory
 - A NAMESPACE
 - Documentation of your code
 - Metadata of your code
@@ -21,3 +22,4 @@ wordcloudrr example
 - github
 *** CRAN
 https://cran.r-project.org/submit.html
+
